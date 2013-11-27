@@ -12,7 +12,7 @@ import android.util.Log;
 import android.widget.EditText;
 
 public class MonitoringActivity extends Activity implements IBeaconConsumer {
-    protected static final String TAG = "RangingActivity";
+    protected static final String TAG = "MonitoringActivity";
     private IBeaconManager iBeaconManager = IBeaconManager.getInstanceForApplication(this);
 
     @Override
